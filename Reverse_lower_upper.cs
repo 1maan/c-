@@ -66,9 +66,9 @@ namespace aeomv
         static void Main(string[] args)
         {
             //Reverse the Case
-            Console.WriteLine("1: To Reverse the Case");
-            Console.WriteLine("2: To upper-case the lower-case");
-            Console.WriteLine("3: To lower-case the upper-case");
+            Console.WriteLine("1: Reverse the Case");
+            Console.WriteLine("2: upper-case To lower-case");
+            Console.WriteLine("3: lower-case To upper-case");
 
             Console.Write("Enter Number Between 1-3: ");
             int Number = Convert.ToInt32(Console.ReadLine());
